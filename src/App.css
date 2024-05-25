@@ -1,0 +1,44 @@
+/* src/App.css */
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+  
+  div + div {
+    margin-top: 1em;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: .5em;
+    color: #333333;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: .5em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+  
+  button {
+    padding: .5em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 1em;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+  }
+  
+  span {
+    color: red;
+    font-size: .875em;
+  }
+  
